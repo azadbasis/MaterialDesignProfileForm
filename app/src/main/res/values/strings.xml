@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_reference_no">Reference No</string>
+    <string name="hint_reference_no">Reference No</string>
+    <string name="label_room">Room</string>
+    <string name="hint_room">Room</string>
+    <string name="label_booking_type">Booking Type</string>
+    <string name="hint_booking_type">Booking Type</string>
+    <string name="label_chairperson_name">Chairperson Name</string>
+    <string name="hint_chairperson_name">Chairperson Name</string>
+    <string name="label_no_of_member">Number Of Member</string>
+    <string name="hint_no_of_member">No Of Member</string>
+    <string name="label_subject">Subject</string>
+    <string name="hint_subject">Subject</string>
+    <string name="label_preference_name">Preference No</string>
+    <string name="label_preference_no">Preference No</string>
+    <string name="hint_prefernce_no">Preference No</string>
+    <string name="label_issue_no">Issue No</string>
+    <string name="hint_issue_no">Issue No</string>
+    <string name="label_booking_purpose">Booking Purpose</string>
+    <string name="hint_booking_purpose">Booking Purpose</string>
+    <string name="label_notice">Notice</string>
+    <string name="hint_notice">Notice</string>
+    <string name="label_from">From</string>
+    <string name="label_to">To</string>
+    <string name="hint_end_date_time">End Date Time</string>
+    <string name="hint_start_date_time">Start Date Time</string>
+</resources>

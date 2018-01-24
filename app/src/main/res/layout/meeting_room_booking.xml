@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="40dp">
+
+
+
+        <saulmm.myapplication.widgets.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/label_address"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_red_3"
+            android:textStyle="bold" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_refer"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/HintAppearance">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietxt_reference_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray_transparent_70"
+            android:hint="@string/hint_reference_no"
+            android:inputType="textPostalAddress|textCapWords"
+            android:minHeight="40dp"
+            android:background="@drawable/dotted_line"
+            android:textColor="@color/text_2" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_room"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/HintAppearance">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietxt_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray_transparent_70"
+            android:hint="@string/hint_room"
+            android:inputType="textPostalAddress|textCapWords"
+            android:minHeight="40dp"
+            android:background="@drawable/dotted_line"
+            android:textColor="@color/text_2" />
+
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_booking_type"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/HintAppearance">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietxt_booking_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray_transparent_70"
+            android:hint="@string/hint_booking_type"
+            android:inputType="textPostalAddress|textCapWords"
+            android:minHeight="40dp"
+            android:background="@drawable/dotted_line"
+            android:textColor="@color/text_2" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_chairperson_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/HintAppearance">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietxt_chairperson_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray_transparent_70"
+            android:hint="@string/hint_chairperson_name"
+            android:inputType="textPostalAddress|textCapWords"
+            android:minHeight="40dp"
+            android:background="@drawable/dotted_line"
+            android:textColor="@color/text_2" />
+
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_number_of_member"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/HintAppearance">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietxt_number_of_member"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray_transparent_70"
+            android:hint="@string/hint_no_of_member"
+            android:inputType="textPostalAddress|textCapWords"
+            android:minHeight="40dp"
+            android:background="@drawable/dotted_line"
+            android:textColor="@color/text_2" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_subject"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/HintAppearance">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietxt_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray_transparent_70"
+            android:hint="@string/hint_subject"
+            android:inputType="textPostalAddress|textCapWords"
+            android:minHeight="40dp"
+            android:background="@drawable/dotted_line"
+            android:textColor="@color/text_2" />
+
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <saulmm.myapplication.widgets.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/label_from"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_red_3"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tvStartDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_start_date_time"
+                    android:background="@drawable/dotted_line"
+                    android:drawableRight="@drawable/ic_today_black_24dp"
+                    android:onClick="setMeetingDateTime"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+            <saulmm.myapplication.widgets.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/label_to"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/text_red_3"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tvEndDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dotted_line"
+                    android:layout_gravity="left"
+                    android:hint="@string/hint_end_date_time"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/ic_today_black_24dp"
+                    android:onClick="setMeetingDateTime"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_preference_no"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/HintAppearance">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/tietxt_preference_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/gray_transparent_70"
+                    android:hint="@string/hint_prefernce_no"
+                    android:inputType="textPostalAddress|textCapWords"
+                    android:minHeight="40dp"
+                    android:background="@drawable/dotted_line"
+                    android:textColor="@color/text_2" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_issue_no"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/HintAppearance">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/tietxt_issue_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/gray_transparent_70"
+                    android:hint="@string/hint_issue_no"
+                    android:inputType="textPostalAddress|textCapWords"
+                    android:minHeight="40dp"
+                    android:background="@drawable/dotted_line"
+                    android:textColor="@color/text_2" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_booking_purpose"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/HintAppearance">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/tietxt_booking_purpose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/gray_transparent_70"
+                    android:hint="@string/hint_booking_purpose"
+                    android:inputType="textPostalAddress|textCapWords"
+                    android:minHeight="40dp"
+                    android:background="@drawable/dotted_line"
+                    android:textColor="@color/text_2" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_notice"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/HintAppearance">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/tietxt_notice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/gray_transparent_70"
+                    android:hint="@string/hint_notice"
+                    android:inputType="textPostalAddress|textCapWords"
+                    android:minHeight="40dp"
+                    android:background="@drawable/dotted_line"
+                    android:textColor="@color/text_2" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
